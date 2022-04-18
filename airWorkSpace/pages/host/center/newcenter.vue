@@ -386,7 +386,6 @@ export default {
           } else {
             const center = await this.$axios.post('/center/', this.center)
             this.$router.push({ path: `/host/center/${center.data.data._id}`, component: 'AllotmentPage' })
-            console.log(center)
             await this.$auth.fetchUser()
           }
         }
