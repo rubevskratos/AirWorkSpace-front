@@ -20,13 +20,16 @@
                     Tired of working at your own place? Try one of ours!
                   </v-card-text>
                   <v-spacer />
-                  <v-card-actions>
+                  <!-- <v-card-actions>
                     <v-spacer />
                     <v-btn color="primary">
                       Search around you
                     </v-btn>
                     <v-spacer />
-                  </v-card-actions>
+                  </v-card-actions> -->
+                  <div class="mx-auto">
+                    <SearchBar />
+                  </div>
                   <v-spacer />
                 </v-card>
                 <v-card style="margin-top: 50px" color="transparent" flat>
